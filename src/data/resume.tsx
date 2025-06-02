@@ -88,6 +88,16 @@ export const DATA = {
         "",
     },
     {
+      company: "Neuversity Space",
+      href: "https://www.neuversity.id/",
+      badges: ["badges"],
+      location: "Yogyakarta, Indonesia",
+      title: "Software Engineer",
+      logoUrl: "/neuversity.png",
+      start: "2023",
+      end: "Now",
+    },
+    {
       company: "EXADATA",
       badges: [],
       href: "http://onlink.id",
