@@ -95,7 +95,9 @@ export const DATA = {
       title: "Software Engineer",
       logoUrl: "/neuversity.png",
       start: "2023",
-      end: "Now",
+      end: "2023",
+      description:
+        "",
     },
     {
       company: "EXADATA",
@@ -120,32 +122,12 @@ export const DATA = {
       end: "April 2020",
       description:
         "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
-    },
-    // {
-    //   company: "",
-    //   href: "https://splunk.com",
-    //   badges: [],
-    //   location: "San Jose, CA",
-    //   title: "Software Engineer",
-    //   logoUrl: "/splunk.svg",
-    //   start: "January 2019",
-    //   end: "April 2019",
-    //   description:
-    //     "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
-    // },
+    }
   ],
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
-      start: "2023",
-      end: "2024",
-    },
-    {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
+      school: "Universitas Sains Al-Qur'an",
+      href: "https://unsiq.ac.id",
       degree: "Bachelor's Degree of Computer Science (BCS)",
       logoUrl: "/waterloo.png",
       start: "2016",
