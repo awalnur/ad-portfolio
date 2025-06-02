@@ -8,9 +8,9 @@ export const DATA = {
   location: "East Jakarta, Indonesia",
   locationLink: "https://www.google.com/maps/place/East+Jakarta",
   description:
-    "Software Engineer as specialist in backend and infrastructure. I love building things and helping people.",
+    "Software Engineer as specialist in backend and infrastructure.",
   summary:
-    "At 2017, I started my career as a software engineer. I start from a small company in Indonesia and grow up to a big company in Indonesia. I have experience in building and scaling a company from the ground up.",
+    "At 2017, I started my career as a software engineer. I start from a small company in Indonesia and grow up to a big company in Indonesia. I have experience in building and scaling a company from the ground up.  I love building things and helping people.",
   avatarUrl: "/me.png",
   skills: [
     "Python",
@@ -76,22 +76,22 @@ export const DATA = {
 
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
-      badges: [],
-      location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      company: "Delameta Bilano",
+      href: "https://delameta.com/",
+      badges: ["badges"],
+      location: "East Jakarta, Jakarta, Indonesia",
+      title: "Engineer Manager, Backend Engineer",
+      logoUrl: "/delameta.png",
+      start: "2023",
+      end: "Now",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "",
     },
     {
-      company: "Shopify",
+      company: "EXADATA",
       badges: [],
-      href: "https://shopify.com",
-      location: "Remote",
+      href: "http://onlink.id",
+      location: "Banjarnegara, Center of Java",
       title: "Software Engineer",
       logoUrl: "/shopify.svg",
       start: "January 2021",
@@ -100,8 +100,8 @@ export const DATA = {
         "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
     },
     {
-      company: "Nvidia",
-      href: "https://nvidia.com/",
+      company: "Prima Arya Hutama",
+      href: "-",
       badges: [],
       location: "Santa Clara, CA",
       title: "Software Engineer",
@@ -111,42 +111,18 @@ export const DATA = {
       description:
         "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
     },
-    {
-      company: "Splunk",
-      href: "https://splunk.com",
-      badges: [],
-      location: "San Jose, CA",
-      title: "Software Engineer",
-      logoUrl: "/splunk.svg",
-      start: "January 2019",
-      end: "April 2019",
-      description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
-    },
-    {
-      company: "Lime",
-      href: "https://li.me/",
-      badges: [],
-      location: "San Francisco, CA",
-      title: "Software Engineer",
-      logoUrl: "/lime.svg",
-      start: "January 2018",
-      end: "April 2018",
-      description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
-    },
-    {
-      company: "Mitre Media",
-      href: "https://mitremedia.com/",
-      badges: [],
-      location: "Toronto, ON",
-      title: "Software Engineer",
-      logoUrl: "/mitremedia.png",
-      start: "May 2017",
-      end: "August 2017",
-      description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
-    },
+    // {
+    //   company: "",
+    //   href: "https://splunk.com",
+    //   badges: [],
+    //   location: "San Jose, CA",
+    //   title: "Software Engineer",
+    //   logoUrl: "/splunk.svg",
+    //   start: "January 2019",
+    //   end: "April 2019",
+    //   description:
+    //     "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
+    // },
   ],
   education: [
     {
